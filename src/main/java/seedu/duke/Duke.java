@@ -5,7 +5,7 @@ import seedu.duke.ui.Ui;
 import java.util.Scanner;
 
 /**
- * Main entry-point for the java.duke.CafeCtrl application.
+ * Main entry-point for the java.duke.Duke application.
  */
 public class Duke {
     private static Ui ui; // Declare ui as a static variable
