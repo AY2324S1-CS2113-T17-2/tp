@@ -6,5 +6,4 @@ Hello! Welcome to CafeCTRL!
 | \__/\ (_| | ||  __/ \__/\ |_| |  | |
  \____/\__,_|_| \___|\____/\__|_|  |_|
 
-James Gosling
 Goodbye <3 Have a great day ahead!
