@@ -5,20 +5,20 @@ import seedu.duke.ui.Ui;
 import java.util.Scanner;
 
 /**
- * Main entry-point for the java.duke.Duke application.
+ * Main entry-point for the java.duke.CafeCtrl application.
  */
 public class Duke {
-    private static Ui ui; // Declare ui as a static variable
-
     public static void main(String[] args) {
-        ui = new Ui();
-
-        ui.showWelcome();
-        ui.showLogo();
+        String logo = " ____        _        \n"
+                + "|  _ \\ _   _| | _____ \n"
+                + "| | | | | | | |/ / _ \\\n"
+                + "| |_| | |_| |   <  __/\n"
+                + "|____/ \\__,_|_|\\_\\___|\n";
+        System.out.println("Hello from\n" + logo);
+        System.out.println("What is your name?");
 
         Scanner in = new Scanner(System.in);
-        System.out.println(in.nextLine());
-        ui.showGoodbye();
+        System.out.println("Hello " + in.nextLine());
     }
 }
 
