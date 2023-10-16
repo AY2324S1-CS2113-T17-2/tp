@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Main entry-point for the java.duke.CafeCtrl application.
  */
-public class CafeCtrl {
+public class Duke {
     private static Ui ui; // Declare ui as a static variable
 
     public static void main(String[] args) {
