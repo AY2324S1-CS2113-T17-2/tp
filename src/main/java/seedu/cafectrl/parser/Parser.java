@@ -291,7 +291,7 @@ public class Parser {
         int ingredientQty = extractQty(ingredientQtyText);
 
         try {
-            return new BuyIngredientCommand(ingredientName, qty, unit, ui, pantry);
+            return new BuyIngredientCommand(ingredientName, ingredientQty, ingredientUnit, ui, pantry);
         } catch (Exception e) {
             return new IncorrectCommand(Messages.INVALID_ARGUMENT_FOR_BUY_INGREDIENT, ui);
         }
